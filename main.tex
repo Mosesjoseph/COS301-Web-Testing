@@ -71,30 +71,7 @@
 			\newline
 			The overall aesthetic look of the website is good and navigation is simple and easy, nothing seemingly difficult or painful to use.
 	
-	
-				\section{Missing Functionality - Bravo}
-					\newline
-					With the back-end of the system not completed, plugged in properly to this interface, We have found that most functionality is hindered somehow, thus not realising if it successfully renders the service or not. Regarding testing for functionality that is not there, there is little to point out, as an Add Publication tab,   	
-					\newline
-					
-		
-			
-	\section{The functionality that is correctly implemented - Bravo}
-		\subsection{General Layout}
-			\paragraph \newline
-				The website is aesthetically pleasing and very simple to use. All available links in the navigation bar work correctly and take the user to the relevant webpages. The "Home" link takes the user to the homepage which is just a welcome page. Under the "Publications" section are two links to either add a new publication or list all current publications and both of these links work correctly. Next is a "People" section which has 3 links to either list all users, add a new user or add a new research group respectively and all these links work. The last section of the website is the "Reports" section which contains the link "Query" which generates a report for the user and this also works correctly.
 
-		\subsection{Publications}
-			\paragraph \newline
-				The "List Publications" section correctly displays the publications that have been added to the system, however they appear to have been hard coded because after adding a publication the list remains the same as it was before adding it. For each publication in the list, there is a "View Publication" button and an "Edit Publication" button which both, after having been clicked, provide the user with the means to either view or edit the publication depending on which button they clicked. When viewing the publication, the user can choose to export it either as a CSV file or as a Bibtex file and both of these work correctly. When adding a new publication, the user can enter all the relevant details of that publication or they can choose to import the details from a CSV file which is working correctly.
-
-			\subsection{People}
-				\paragraph \newline
-					The "List People" section displays details about the users, including which research field they are part of. For each person in the list, there is a means by which the user can view or edit their information. Both of these buttons work correctly. When editing a person, the user has the option to import the information from a CSV file which is functioning correctly. When adding a person, the user can enter all the relevant details by making use of the various fields or they can opt to once again import a CSV file. The "Adding a Research Group" section correctly provides the user to enter the details of the new research group.
-
-			\subsection{Reports}
-				\paragraph \newline
-					This section allows the user to type in the details of the publication that a report must be generated for. The user must enter the publication type and the name of a person or research group that the publication is assigned to. After clicking the "Generate Report" button, the user is taken to a page which displays all of the research groups and the publications that they are part of.
 \section{Which aspects of the software architecture specification were adhered to - Alpha}
 The architecture specifications that were followed are as follows:
 \begin{itemize}
@@ -110,7 +87,7 @@ The architecture specifications that were followed are as follows:
 	\item integrates well with npm
 \end{itemize}
 The sections listed above are the sections that were testable and thus could be classified as parts of the specification that were followed.
-					
+
 			\section{Software Architecture Specifications Partially Complied To - Alpha}
 				\paragraph \newline
 				The technologies that were specified in the Architectural Requirements were as follows:
@@ -135,7 +112,30 @@ The sections listed above are the sections that were testable and thus could be 
 The features that are listed above were not identifiable on the work done. The MVC feature was only missing the controllers in order to fully follow the MVC pattern. The web was also not integrated to the rest of the system.
 
 
+	\section{The functionality that is correctly implemented - Bravo}
+		\subsection{General Layout}
+			\paragraph \newline
+				The website is aesthetically pleasing and very simple to use. All available links in the navigation bar work correctly and take the user to the relevant webpages. The "Home" link takes the user to the homepage which is just a welcome page. Under the "Publications" section are two links to either add a new publication or list all current publications and both of these links work correctly. Next is a "People" section which has 3 links to either list all users, add a new user or add a new research group respectively and all these links work. The last section of the website is the "Reports" section which contains the link "Query" which generates a report for the user and this also works correctly.
 
+		\subsection{Publications}
+			\paragraph \newline
+				The "List Publications" section correctly displays the publications that have been added to the system, however they appear to have been hard coded because after adding a publication the list remains the same as it was before adding it. For each publication in the list, there is a "View Publication" button and an "Edit Publication" button which both, after having been clicked, provide the user with the means to either view or edit the publication depending on which button they clicked. When viewing the publication, the user can choose to export it either as a CSV file or as a Bibtex file and both of these work correctly. When adding a new publication, the user can enter all the relevant details of that publication or they can choose to import the details from a CSV file which is working correctly.
 
+			\subsection{People}
+				\paragraph \newline
+					The "List People" section displays details about the users, including which research field they are part of. For each person in the list, there is a means by which the user can view or edit their information. Both of these buttons work correctly. When editing a person, the user has the option to import the information from a CSV file which is functioning correctly. When adding a person, the user can enter all the relevant details by making use of the various fields or they can opt to once again import a CSV file. The "Adding a Research Group" section correctly provides the user to enter the details of the new research group.
 
+			\subsection{Reports}
+				\paragraph \newline
+					This section allows the user to type in the details of the publication that a report must be generated for. The user must enter the publication type and the name of a person or research group that the publication is assigned to. After clicking the "Generate Report" button, the user is taken to a page which displays all of the research groups and the publications that they are part of.
+
+\section{Short-Comings of the implemented functionality - Bravo}
+There was a large problem with the integration of the back- and front-end of the web service to be provided. The web-interface provides basic functionality to move between the different sections. However, first problem encounter is the login does not work. Pre-conditions to login is that the user should be a register member of the system. The credentials provided need to be checked with the database. The post conditions is that the user should be allowed to pass or forbidden on depending on whether they are registered staff.
+\newline\newline
+This problem propagates through the entire system because of the disconnect between the back- and front-end of the system. Thus most of the system falls short of what it was intended to do and contracts which where meant to be realised simply fall short due to not being able to utilize the pre-conditions and persist the post-conditions.	
+	
+				\section{Missing Functionality - Bravo}
+					With the back-end of the system not completed, plugged in properly to this interface, We have found that most functionality is hindered somehow, thus not realising if it successfully renders the service or not. Regarding testing for functionality that is not there, there is little to point out, as an Add Publication tab,   	
+					\newline
+					
 \end{document}
