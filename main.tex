@@ -95,7 +95,10 @@
 			\subsection{Reports}
 				\paragraph \newline
 					This section allows the user to type in the details of the publication that a report must be generated for. The user must enter the publication type and the name of a person or research group that the publication is assigned to. After clicking the "Generate Report" button, the user is taken to a page which displays all of the research groups and the publications that they are part of.
-\section{Which aspects of the software architecture specification were adhered to - Alpha}
+		
+\section{Architecture Compliance Analysis}
+\subsection{Analysis of Alpha Team}	
+\subsubsection{Which aspects of the software architecture specification were adhered to - Alpha}
 The architecture specifications that were followed are as follows:
 \begin{itemize}
 	\item Add publication
@@ -111,7 +114,7 @@ The architecture specifications that were followed are as follows:
 \end{itemize}
 The sections listed above are the sections that were testable and thus could be classified as parts of the specification that were followed.
 					
-			\section{Software Architecture Specifications Partially Complied To - Alpha}
+			\subsubsection{Software Architecture Specifications Partially Complied To - Alpha}
 				\paragraph \newline
 				The technologies that were specified in the Architectural Requirements were as follows:
 				\begin{itemize}
@@ -124,7 +127,7 @@ The sections listed above are the sections that were testable and thus could be 
 				\end{itemize}
 				All of which were involved in the implementation of the Alpha web interface. Thus, nothing can be said in regard to any of the Architecture Specifications only being partially complied to.
 
-\section{Which aspects of the software architecture specification were not implemented - Alpha}	
+\subsubsection{Which aspects of the software architecture specification were not implemented - Alpha}	
 \begin{itemize}
 	\item Get publication
 	\item Automatic rebuild on file changes
@@ -134,8 +137,24 @@ The sections listed above are the sections that were testable and thus could be 
 \end{itemize}
 The features that are listed above were not identifiable on the work done. The MVC feature was only missing the controllers in order to fully follow the MVC pattern. The web was also not integrated to the rest of the system.
 
+\subsection{Analysis of Bravo Team}
 
-
+\subsubsection{Aspects of Specification which were adheared to - Bravo}
+	The architecture specifications that were adhered to are as follows:
+	\begin{itemize}
+		\item Add publication
+		\item Change Publication state
+		\item Organize publications according to researcher-category
+		\item Organize publications according to research-group
+		\item Templating
+		\item Pre-compilation of templates
+		\item Automatic Model population
+		\item Virtual DOM
+		\item Javascript is used
+		\item integrates well with npm
+	\end{itemize}
+	
+The sections listed above are the sections that were testable and thus could be classified as parts of the specification that were followed.
 
 
 \end{document}
