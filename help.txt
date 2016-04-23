@@ -1,0 +1,40 @@
+Create a folder somewhere
+
+Open command prompt as Administrator:
+	- Click Start
+	- Type "cmd"
+	- Right click on cmd.exe
+	- Select Run as Administrator
+
+Switch to that folder you created
+
+Type "ember new myApp" without the ""
+Type "cd myApp"
+
+Have a copy of the Bravo repository posted on the CS website
+
+In that repository go to "Web Interface/RRS"
+
+Copy everything in this folder and paste into the "myApp" folder you created earlier
+Say yes to everything about merging and copying
+
+In command prompt again:
+
+Type "npm install" into command prompt
+Type "bower intall"
+Type "ember server"
+
+Open a browser and go to http://localhost:4200/
+
+If you get an error about a specified version follow these instructions:
+	- Open "bower.json" in the myApp folder
+	- On the "ember": "~2.4.1" line, change the "2.4.1" to the version
+	  that you have installed (it says in the error you got)
+	- Save this document
+	- Type "bower install"
+	- Type "ember server"
+
+Open a browser and go to http://localhost:4200/, you might have to wait a bit for the page
+to display
+
+Hope this helps!
