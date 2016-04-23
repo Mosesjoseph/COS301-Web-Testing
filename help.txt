@@ -21,10 +21,7 @@ Say yes to everything about merging and copying
 In command prompt again:
 
 Type "npm install" into command prompt
-Type "bower intall"
-Type "ember server"
-
-Open a browser and go to http://localhost:4200/
+Type "bower install"
 
 If you get an error about a specified version follow these instructions:
 	- Open "bower.json" in the myApp folder
@@ -33,6 +30,8 @@ If you get an error about a specified version follow these instructions:
 	- Save this document
 	- Type "bower install"
 	- Type "ember server"
+
+Otherwise just type "ember server"
 
 Open a browser and go to http://localhost:4200/, you might have to wait a bit for the page
 to display
