@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {paragraph}{\newline }{1}
+\contentsline {section}{\numberline {2}The functionality that is correctly implemented - Alpha}{1}
+\contentsline {paragraph}{\newline }{1}
+\contentsline {section}{\numberline {3}The functionality that is correctly implemented - Bravo}{1}
+\contentsline {subsection}{\numberline {3.1}General Layout}{1}
+\contentsline {paragraph}{\newline }{1}
+\contentsline {subsection}{\numberline {3.2}Publications}{2}
+\contentsline {paragraph}{\newline }{2}
+\contentsline {subsection}{\numberline {3.3}People}{2}
+\contentsline {paragraph}{\newline }{2}
+\contentsline {subsection}{\numberline {3.4}Reports}{2}
+\contentsline {paragraph}{\newline }{2}
+\contentsline {section}{\numberline {4}Which aspects of the software architecture specification were adhered to - Alpha}{2}
+\contentsline {section}{\numberline {5}Software Architecture Specifications Partially Complied To - Alpha}{3}
+\contentsline {paragraph}{\newline }{3}
+\contentsline {section}{\numberline {6}Which aspects of the software architecture specification were not implemented - Alpha}{3}
