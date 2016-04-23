@@ -123,21 +123,6 @@ The sections listed above are the sections that were testable and thus could be 
 					\item PhantomJS
 				\end{itemize}
 				All of which were involved in the implementation of the Alpha web interface. Thus, nothing can be said in regard to any of the Architecture Specifications only being partially complied to.
-				
-\section{Software Architecture Specifications Partially Complied To - Bravo}
-	\paragraph
-	\newline
-	The following technologies specified in the Architectural Requirements were implemented:
-	\begin{itemize}
-		\item Ember CLI
-		\item PhantomJS
-		\item Node.js (using NPM)
-		\item Broccoli
-		\item Bower
-		\item QUnit for testing
-	\end{itemize}
-	
-	Therefore, the Bravo Web team adhered to the architecture specification, and there aren't any partially complied specification.
 
 \subsubsection{Which aspects of the software architecture specification were not implemented - Alpha}	
 \begin{itemize}
@@ -171,7 +156,11 @@ This section serves to outline which sections of the Architecture Specification 
 
 \subsubsection{Aspects of the Specification which were not Implemented}
 \paragraph\newline 
-This section outlines parts of the specification which were not implemented by Bravo Team's Web Interface.
+Firstly right off the bat, deployability was a very prominent problem. To simply get the software working was a nightmare given that there was no indication of what software frameworks where required. This makes the job of future developers hard given that they need to analyze package files to understand what exactly is needed. Also with no direction from a readme the project is a hassle to get off the ground.
+\newline\newline
+Testability was the next issue. However, this is reasonable given that without proper communication with the backend, there is not much one could have tested that would be worthwhile.
+\newline\newline
+Given the issues above maintainability of the project fall through the floor, if issues are not fixed present a full rewrite of the project would be in order. However, if proper organization can take place then a lot of time will be saved depending on the quality of the code after reorganizing the project.
 
 \subsection{Reports}
 \paragraph \newline
@@ -185,15 +174,7 @@ This problem propagates through the entire system because of the disconnect betw
 	
 				\section{Missing Functionality - Bravo}
 \paragraph\newline 
-With the back-end of the system not completed, plugged in properly to this interface, We have found that most functionality is hindered somehow, thus not realising if it successfully renders the service or not. Regarding testing for functionality that is not there, there is little to point out, as an Add Publication tab,   	
+With the back-end of the system not completed, plugged in properly to this interface, We have found that most functionality is hindered somehow, thus not realising if it successfully renders the service or not. Regarding testing for functionality that is not there, there is little to point out, as an Add Publication tab.  	
 					\newline
-				
-\section{Aspects of the software architecture specification not implemented - Bravo}
-\paragraph\newline 
-Firstly right off the bat, deployability was a very prominent problem. To simply get the software working was a nightmare given that there was no indication of what software frameworks where required. This makes the job of future developers hard given that they need to analyze package files to understand what exactly is needed. Also with no direction from a readme the project is a hassle to get off the ground.
-\newline\newline
-Testability was the next issue. However, this is reasonable given that without proper communication with the backend, there is not much one could have tested that would be worthwhile.
-\newline\newline
-Given the issues above maintainability of the project fall through the floor, if issues are not fixed present a full rewrite of the project would be in order. However, if proper organization can take place then a lot of time will be saved depending on the quality of the code after reorganizing the project.
 
 \end{document}
